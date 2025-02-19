@@ -28,7 +28,7 @@ const CartItem = ({ onContinueShopping }) => {
 
   const handleContinueShopping = (e) => {
     onContinueShopping(e)
-  }
+  };
 
   // Calculate total cost based on quantity for an item
   const calculateTotalCost = (item) => {
@@ -41,7 +41,6 @@ const CartItem = ({ onContinueShopping }) => {
         
         return total.toFixed(2); // Return total rounded to two decimal places
         };
-  };
 
   return (
     <div className="cart-container">
